@@ -195,7 +195,7 @@ border-top:1px solid #222;
 <a href="#">Contact</a>
 </nav>
 
-<a href="#" class="shop-btn">Shop Now</a>
+<a href="#" class="shop-btn">welcome</a>
 
 </header>
 
@@ -218,38 +218,60 @@ border-top:1px solid #222;
 <div class="product-grid">
 </html>
 <div class="product-card">
-<img src="images/powerbass-subwoofer.jpg" alt="PowerBass Subwoofer">
-<h3>Subwoofers</h3>
-<p>Deep bass performance.</p>
-<span class=>review</span>
-</div>     
+
+  <section class="products">
+
+<h2>Our Car Audio Products</h2>
+
+<div class="product-grid" id="productGrid">
 
 <div class="product-card">
-<img src="images/amplifier.jpg">
-<h3>Targa Amplifier</h3>
-<p>High performance amplifier for clear sound.</p>
-<span class=</span>
-<button>rewiew</button>
+<img src="images/powerbass-sub.jpg">
+<h3>PowerBass Subwoofer</h3>
+<p>Deep bass performance for powerful car audio systems.</p>
+<span class="price">P1200</span>
+<button onclick="addToCart('PowerBass Subwoofer',1200)">
+Add to Cart
+</button>
 </div>
 
 <div class="product-card">
-<img src="images/speakers.jpg">
+<img src="images/targa-amp.jpg">
+<h3>Targa Amplifier</h3>
+<p>High power amplifier for clean sound and bass boost.</p>
+<span class="price">P950</span>
+<button onclick="addToCart('Targa Amplifier',950)">
+Add to Cart
+</button>
+</div>
+
+<div class="product-card">
+<img src="images/car-speakers.jpg">
 <h3>Car Door Speakers</h3>
-<p>Crystal clear sound and strong mids.</p>
-<span class=/span>
-<button>review</button>
+<p>High clarity speakers for mids and highs.</p>
+<span class="price">P450</span>
+<button onclick="addToCart('Car Speakers',450)">
+Add to Cart
+</button>
 </div>
 
 </div>
 
 </section>
-<section class="contact-section">
 
-<h2>Contact SoundSage Botswana</h2>
 
-<div class="contact-container">
+<section class="cart">
 
-<div class="contact-info">
+<h2>Your Cart</h2>
+
+<ul id="cartItems"></ul>
+
+<h3>Total: P<span id="cartTotal">0</span></h3>
+
+<button onclick="checkout()">Checkout via WhatsApp</button>
+
+</section>
+  <div class="contact-info">
 
 <p>
 📧 Email:
