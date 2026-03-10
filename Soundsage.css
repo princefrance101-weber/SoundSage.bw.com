@@ -30,23 +30,11 @@ nav a{
     margin-left:20px;
     text-decoration:none;
     font-weight:500;
-}
-
-nav a:hover{
-    color:#00c3ff;
-}
 
 .logo{FB_IMG_1773125896347.jpg}
 font-size:24px;
 font-weight:bold;
 color:#00c3ff;
-}
-
-nav a{
-color:white;
-text-decoration:none;
-margin:0 15px;
-transition:0.3s;
 }
 
 nav a:hover{
@@ -56,7 +44,7 @@ color:#00c3ff;
 .btn{
 background:#00c3ff;
 padding:10px 20px;
-color:black;
+color:darkgrey;
 text-decoration:none;
 border-radius:5px;
 font-weight:bold;
