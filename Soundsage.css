@@ -20,7 +20,7 @@ color:white;
     padding:15px 40px;
 }
 
-.logo img{FB_IMG_1773125896347.jpg}
+.logo.png{FB_IMG_1773125896347.jpg}
     height:60px;
     width:auto;
 }
@@ -31,7 +31,7 @@ nav a{
     text-decoration:none;
     font-weight:500;
 
-.logo{FB_IMG_1773125896347.jpg}
+.logo.png{FB_IMG_1773125896347.jpg}
 font-size:24px;
 font-weight:bold;
 color:#00c3ff;
