@@ -42,6 +42,9 @@
     <div class="contact-item" onclick="openWhatsApp()">
         <span>💬</span>
         <p>Chat on WhatsApp</p>
+        <a href="#" class="whatsapp-float" onclick="openWhatsApp()">
+    💬
+        </a>
     </div>
 
     <div class="contact-item" onclick="openFacebook()">
@@ -49,10 +52,24 @@
         <p>Sound Sage Botswana</p>
     </div>
 </section>
-
+<div class="sticky-bar">
+    <button onclick="makeCall()">📞 Call</button>
+    <button onclick="openWhatsApp()">💬 WhatsApp</button>
+    <button onclick="openFacebook()">📘 Facebook</button>
+</div>
 <!-- LINK JS -->
 <script src="script.js"></script>
-
+<section class="map">
+    <h2>Find Us</h2>
+    <div class="map-container">
+        <iframe 
+            src="https://maps.google.com/maps?q=Gaborone&t=&z=13&ie=UTF8&iwloc=&output=embed"
+            frameborder="0"
+            allowfullscreen>
+        </iframe>
+    </div>
+</section>
+    
     <!-- FOOTER -->
     <footer>
         <p>© 2026 SoundSage Botswana | Built for Premium Sound</p>
