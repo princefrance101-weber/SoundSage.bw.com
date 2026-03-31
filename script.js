@@ -20,6 +20,18 @@ function openWhatsApp() {
 function openFacebook() {
     window.open("https://facebook.com/", "_blank"); // 🔁 Replace with your real page link
 }
+document.querySelector('.cta-btn').addEventListener('click', function(e){
+  e.preventDefault();
+  document.querySelector('#products').scrollIntoView({ behavior: 'smooth' });
+});
+const buyBtns = document.querySelectorAll('.buy-btn');
+buyBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    btn.textContent = "Opening Email...";
+    setTimeout(() => {
+      btn.textContent = "Contact to Buy";
+    }, 2000);
+  }
 // ORDER PRODUCT VIA WHATSAPP
 function orderProduct(productName) {
     let phone = "26777730365";
