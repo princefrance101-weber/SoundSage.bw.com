@@ -20,3 +20,10 @@ function openWhatsApp() {
 function openFacebook() {
     window.open("https://facebook.com/", "_blank"); // 🔁 Replace with your real page link
 }
+// ORDER PRODUCT VIA WHATSAPP
+function orderProduct(productName) {
+    let phone = "26777730365";
+    let message = "Hello, I want to buy: " + productName;
+    let url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(message);
+    window.open(url, "_blank");
+}
